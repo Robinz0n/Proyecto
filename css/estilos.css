@@ -1,0 +1,89 @@
+body{
+	background: #222;
+	color: #EEE;
+	font-family: Arial;
+	font-size: 16px;
+    text-align: center;
+}
+header{
+ background:url("../img/logo.png") no-repeat 100% center,
+           url("../img/fondo.png");
+ background-size: 30px 100px 100px;
+ margin: 0 0 1em 0;
+ padding: 0.5em 0;
+ width: 100%;
+}
+header h1{
+	margin: 0;
+	text-shadow:rgba(255,255,255,0.9) 5px 5px 10px;
+}
+header h2{
+	margin: 0;
+	font-weight: normal;
+	text-shadow:rgba(0,0,0,0.9) 2px 2px 5px;
+}
+nav{
+	background: rgba(60,60,180,0.8);
+	bottom: 0;
+	font-size: 1.5em;
+	left: 0;
+	padding: 1em 0;
+	position: fixed;
+	width: 100%;
+}
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li
+{
+display: inline-block;
+}
+nav ul li a 
+{
+	background: #D23D15;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+    transition: all 0.5s ease;
+}
+nav ul li a:hover
+{
+background: #fff;
+color: black;
+transform: scale(1.2) rotate(-5deg);
+
+}
+#coche{
+	background: white;
+	color: #222;
+	text-align: left;
+	width: 42%;
+}
+
+#coche figcaption{
+	margin: 1em;
+}
+
+#coche img{
+	width: 100%;
+}
+#historia , #coche{
+	display: inline-block;
+	vertical-align: top;
+}
+#historia{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	margin: 0 2% 7em 1em;
+	text-align: justify;
+	padding: 1em;
+	width: 40%;
+
+}
